@@ -5,3 +5,5 @@ for elemento in item_train :
 
 for i in range(7) : #imprime de 0 a 6
     print(i)
+else: 
+    print("Se completo sin interrupciones ")    

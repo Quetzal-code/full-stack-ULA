@@ -20,6 +20,7 @@ print("Bienvenido a ADIVINADOR el juego online de numeros ")
 
 
 num_adivinado
- 
 
+print ("Felicidades, acaso eres brujo? ")
+print ("No has acertado pero lo intentaste hasta el final, enhorabuena ")
 #repetir intento 5 veces maximo

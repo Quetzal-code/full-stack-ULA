@@ -10,17 +10,28 @@
 
 
 #----------------------------------------------------------------------------------------------------------
-
+import random
 #Generar numero aleatorio entero entre 1 a 20
-num_secreto
+num_desconocido=random.randint(1, 20)
 
 #Bienvenido al juego 
-print("Bienvenido a ADIVINADOR el juego online de numeros ")
+print("Bienvenido a ADIVINADOR el juego online de adivinar numeros ")
 
-
-
-num_adivinado
-
-print ("Felicidades, acaso eres brujo? ")
-print ("No has acertado pero lo intentaste hasta el final, enhorabuena ")
 #repetir intento 5 veces maximo
+print("Introduzca un número entre 1 y 20")
+intento=0
+for i in range(1,6):
+    intento+=1   
+    num_adivinado=int(input(f"Intento: {intento} Ingrese número: "))
+    if num_adivinado==num_desconocido:
+        print("Felicidades, acaso eres brujo? !")
+        break
+    elif num_adivinado > num_desconocido:
+        print("El número es menor")
+    else:
+        print("El número es mayor")
+
+else:
+  #  print("El número que debías adivinar es:",num_secreto)
+    print(f"El número que debías adivinar es: {num_desconocido}")
+    print ("No has acertado pero lo intentaste hasta el final, enhorabuena ")

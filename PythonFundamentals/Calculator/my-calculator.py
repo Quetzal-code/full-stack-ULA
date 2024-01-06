@@ -37,7 +37,7 @@ def son_numeros(expression):
 # Configuración de la ventana principal
 root = tk.Tk()
 root.title("Calculator")
-root.iconbitmap("Calculator.ico")
+# root.iconbitmap("Calculator.ico")
 root.resizable(width=False, height=False)
 root.geometry("400x600")  # Tamaño fijo de ventana
 

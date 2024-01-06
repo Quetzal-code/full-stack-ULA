@@ -11,27 +11,36 @@
 
 #----------------------------------------------------------------------------------------------------------
 import random
+
+def valor_valido(mensaje):
+    while True:
+        try:
+            entrada = int(input(mensaje))
+            if 1 <= entrada <= 20:
+                return entrada
+            else:
+                print("Por favor, introduce un número entre 1 y 20.")
+        except ValueError:
+            print("Eso no parece ser un número válido. Intenta de nuevo.")
+
 #Generar numero aleatorio entero entre 1 a 20
-num_desconocido=random.randint(1, 20)
+num_desconocido = random.randint(1, 20)
 
 #Bienvenido al juego 
-print("Bienvenido a ADIVINADOR el juego online de adivinar numeros ")
+print("Bienvenido a ADIVINADOR el juego online de adivinar números ")
 
-#repetir intento 5 veces maximo
+#repetir intento 5 veces máximo
 print("Introduzca un número entre 1 y 20")
-intento=0
-for i in range(1,6):
-    intento+=1   
-    num_adivinado=int(input(f"Intento: {intento} Ingrese número: "))
-    if num_adivinado==num_desconocido:
+for intento in range(1, 6):  
+    num_adivinado = valor_valido(f"Intento: {intento} Ingrese número: ")
+    if num_adivinado == num_desconocido:
         print("Felicidades, acaso eres brujo? !")
         break
     elif num_adivinado > num_desconocido:
-        print("El número es menor")
+        print("El número es menor, baja baja, te fuiste muy alto.")
     else:
-        print("El número es mayor")
+        print("El número es mayor, intenta subir la apuesta.")
 
 else:
-  #  print("El número que debías adivinar es:",num_secreto)
     print(f"El número que debías adivinar es: {num_desconocido}")
-    print ("No has acertado pero lo intentaste hasta el final, enhorabuena ")
+    print("No has acertado pero lo intentaste hasta el final, enhorabuena.")

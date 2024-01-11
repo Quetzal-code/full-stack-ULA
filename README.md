@@ -40,5 +40,7 @@ Submit a pull request.
 Maintainers:
 
 Quetzal Uzcategui
+
 Hernando Uzcategui
+
 Rosa Rosales

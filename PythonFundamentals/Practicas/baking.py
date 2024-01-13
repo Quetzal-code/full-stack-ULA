@@ -1,4 +1,6 @@
-EXPECTED_BAKE_TIME = 10
+
+
+EXPECTED_BAKE_TIME = 60
 
 def bake_time_remaining():
         """Calculate the bake time remaining.
@@ -10,6 +12,7 @@ def bake_time_remaining():
     an argument and returns how many minutes the lasagna still needs to bake
     based on the `EXPECTED_BAKE_TIME`.
     """
+    
     
 
 

@@ -1,4 +1,4 @@
-import module_example
-module_example.greet("Alice")
+import module_example as me
+me.greet("Alice")
 
 print("Hola Mundo")

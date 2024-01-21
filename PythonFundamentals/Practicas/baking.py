@@ -1,5 +1,6 @@
 """Baking calculator"""
 EXPECTED_BAKE_TIME = 40
+PREPARATION_TIME = 2
 # Supongo que el tiempo de horneado esperado es de 60 minutos
 
 def bake_time_remaining(elapsed_bake_time):
@@ -13,7 +14,7 @@ def bake_time_remaining(elapsed_bake_time):
 
 print(f"Tiempo de horneado restante: {bake_time_remaining(30)} minutos")
 
-PREPARATION_TIME = 10
+
 
 def preparation_time_in_minutes(number_of_layers):
     """
@@ -22,10 +23,11 @@ def preparation_time_in_minutes(number_of_layers):
     :param layers: int - número de capas de la lasaña.
     :return: int - tiempo total de preparación (en minutos).
     """
-    return PREPARATION_TIME * number_of_layers
+    
+    return number_of_layers * PREPARATION_TIME
 
 
-print(f"Tiempo de horneado restante: {preparation_time_in_minutes(2)} minutos")
+print(f"Tiempo de preparación: {preparation_time_in_minutes(2)} minutos")
 
 
 def elapsed_time_in_minutes(number_of_layers, elapsed_bake_time):
@@ -36,6 +38,6 @@ def elapsed_time_in_minutes(number_of_layers, elapsed_bake_time):
     :param elapsed_bake_time: int - tiempo de horneado ya transcurrido.
     :return: int - tiempo total transcurrido (en minutos).
     """
-    return preparation_time_in_minutes(number_of_layers) + elapsed_bake_time
+    return (preparation_time_in_minutes * number_of_layers) + elapsed_bake_time
 
-print(f"Tiempo de horneado restante: {elapsed_time_in_minutes(2, 30)} minutos")
+print(f"Tiempo total transcurrido: {elapsed_time_in_minutes(2, 30)} minutos")

@@ -14,6 +14,8 @@ type(example_set)
 my_integer = 5 # Numeros enteros
 my_float = 5.0  # Números decimales
 my_string = "Hello"  # Texto y caracteres
+string_2= "This string is to long, to put it \
+in a single line" #Is using that character
 my_boolean = True # True or False
 
 #to convert

@@ -1,5 +1,16 @@
 """Data Types"""
 
+#5 Data types 
+
+#Numeric
+#Sequence ... include strings, lists and tuples 
+#Dictionaries 
+#Boolean 
+#Set 
+example_set = {1, "Hello", 4.5 , "AAA"}
+type(example_set)
+
+
 my_integer = 5 # Numeros enteros
 my_float = 5.0  # Números decimales
 my_string = "Hello"  # Texto y caracteres

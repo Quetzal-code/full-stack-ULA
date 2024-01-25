@@ -1,3 +1,7 @@
+#Declare a function
+#Pass data to a function
+#Retrieve data from a function
+
 # The body of a function is indented by 2 spaces, & prints the sum of the numbers.
 def Add_two_numbers(number_one, number_two):
   total = number_one + number_two

@@ -17,3 +17,12 @@ while numero <= 200 :
         if i == 2 :
             continue
         print(i)
+
+
+favorites= ["Cheessecake, Supreme Cake, Yogurt, Corn Cake"]
+
+count= 0
+
+while count < len(favorites):
+    print("My favorite dessert is", favorites[count])
+    count += 1

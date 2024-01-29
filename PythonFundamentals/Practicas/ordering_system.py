@@ -24,7 +24,8 @@ def calculate_subtotal(order):
     """
     print('Calculating bill subtotal...')
     ### WRITE SOLUTION HERE
-
+    subtotal = sum(item["price"] for item in order)
+    return subtotal
     raise NotImplementedError()
 
 def calculate_tax(subtotal):
@@ -92,10 +93,6 @@ def take_order():
         order.append(menu[int(item)])
     return order
 
-'''
-Here are some sample function calls to help you test your implementations.
-Feel free to change, uncomment, and add these as you wish.
-'''
 def main():
     order = take_order()
     print_order(order)
@@ -110,3 +107,47 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
+# Completando las funciones solicitadas en el script de Python
+
+# def calculate_subtotal(order):
+#     """ Calcula el subtotal de un pedido. """
+#     subtotal = sum(item["price"] for item in order)
+#     return subtotal
+
+# def calculate_tax(subtotal):
+#     """ Calcula el impuesto de un pedido. """
+#     tax_rate = 0.15
+#     tax = round(subtotal * tax_rate, 2)
+#     return tax
+
+# def summarize_order(order):
+#     """ Resume el pedido. """
+#     subtotal = calculate_subtotal(order)
+#     tax = calculate_tax(subtotal)
+#     total = round(subtotal + tax, 2)
+#     names = [item["name"] for item in order]
+#     return names, total
+
+# def main():
+#     order = take_order()
+#     print_order(order)
+
+#     subtotal = calculate_subtotal(order)
+#     print("Subtotal for the order is: " + str(subtotal))
+
+#     tax = calculate_tax(subtotal)
+#     print("Tax for the order is: " + str(tax))
+
+#     items, total = summarize_order(order)
+#     print("Items in the order: " + str(items))
+#     print("Total for the order (including tax) is: " + str(total))
+
+# if __name__ == "__main__":
+#     main()

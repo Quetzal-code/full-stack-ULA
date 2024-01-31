@@ -1,5 +1,0 @@
-# Ordenamiento Burbuja (Bubble Sort)
-# Ordenamiento por Inserción (Insertion Sort)
-# Ordenamiento por Selección (Selection Sort)
-# Ordenamiento por Fusión (Merge Sort)
-# Ordenamiento Rápido (Quicksort)

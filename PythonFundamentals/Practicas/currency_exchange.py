@@ -9,7 +9,6 @@ def exchange_money(budget, exchange_rate):
 def get_change(budget, exchanging_value):
     
 
-
 def get_value_of_bills(denomination, number_of_bills):
 
 

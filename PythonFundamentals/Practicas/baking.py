@@ -14,8 +14,6 @@ def bake_time_remaining(elapsed_bake_time):
 
 print(f"Tiempo de horneado restante: {bake_time_remaining(30)} minutos")
 
-
-
 def preparation_time_in_minutes(number_of_layers):
     """
     Calcula el tiempo de preparación en minutos.
@@ -26,9 +24,7 @@ def preparation_time_in_minutes(number_of_layers):
     
     return number_of_layers * PREPARATION_TIME
 
-
 print(f"Tiempo de preparación: {preparation_time_in_minutes(2)} minutos")
-
 
 def elapsed_time_in_minutes(number_of_layers, elapsed_bake_time):
     """

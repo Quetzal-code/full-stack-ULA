@@ -1,7 +1,8 @@
-#include <stdio.h>
-int main() {
-    printf("Hello World\n");
-    return 0;
+//#include <stdio.h>  Incluye la biblioteca estándar de entrada/salida
+
+int main() { // La función main inicia la ejecución del programa
+    printf("Hello World\n"); // Imprime "Hello, World!" seguido de un salto de línea
+    return 0; // Termina la ejecución del programa con estado de salida 0
 }
 
 

@@ -10,7 +10,7 @@ for i in range(1,6):
     intento+=1   
     num_adivinado=int(input(f"Intento: {intento} Ingrese número: "))
     if num_adivinado==num_secreto:
-        print("Felicitaciones, Adivinaste!")
+        print("Felicitaciones, Adivinaste el numero!")
         break
     elif num_adivinado > num_secreto:
         print("El número es menor")

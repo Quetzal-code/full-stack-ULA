@@ -7,3 +7,7 @@ elif edad < 5:
     print("Eres un bebe")
 
 else: 
+    print ("No eres ni adolescente ni un bebe")
+
+
+#

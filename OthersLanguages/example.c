@@ -1,11 +1,11 @@
-//#include <stdio.h>  Incluye la biblioteca estándar de entrada/salida
+#include <stdio.h>  //Incluye la biblioteca estándar de entrada/salida
 
-int main() { // La función main inicia la ejecución del programa
-    printf("Hello World\n"); // Imprime "Hello, World!" seguido de un salto de línea
-    return 0; // Termina la ejecución del programa con estado de salida 0
-}
+// int main() { // La función main inicia la ejecución del programa
+//     printf("Hello World\n"); // Imprime "Hello, World!" seguido de un salto de línea
+//     return 0; // Termina la ejecución del programa con estado de salida 0
+// }
 
-
+//No puedes tener dos main
 int main() {
     // Declaración de variables
     int num1, num2, suma;

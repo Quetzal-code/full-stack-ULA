@@ -1,4 +1,4 @@
-#include <stdio.h>  //Incluye la biblioteca estándar de entrada/salida
+//#include <stdio.h>  Incluye la biblioteca estándar de entrada/salida
 
 // int main() { // La función main inicia la ejecución del programa
 //     printf("Hello World\n"); // Imprime "Hello, World!" seguido de un salto de línea

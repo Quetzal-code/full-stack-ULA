@@ -13,9 +13,9 @@
       Author:  Israel Uzcategui
       Date:    22-02-2024  
 
-      Filename: index.htm
+      Filename: index.html
    -->
-<script src="/HandsOnProject_01_data/project04/project01-04.js"></script>
+<script src="IsraExample.js"></script>
 </head>
 
 <body>
@@ -34,14 +34,15 @@
             <label for="homeoption" id="homeaddr">
                <div>Home</div>
                   <script>
-                     document.write(homeStreet + '<br>' + homeCity + homeState + homeCode)
+                     document.write(homeStreet + '<br>' + homeCity + ', ' + homeState+ ' ' + homeCode)
                   </script>
-               <input type="radio" id="homeoption" name="shippingaddr" onclick="document.insertion()" />
+               <input type="radio" id="homeoption" name="shippingaddr" onclick="document.insertion('street')
+                  .innerHTML = homeStreet " />
             </label>
             <label for="workoption" id="workaddr">
                <div>Work</div>
                   <script>
-                     document.write(workStreet + '<br>' + workCity + workState + workCode)
+                     document.write(workStreet + '<br>' + workCity + ', ' + workState + ' ' + workCode)
                   </script>
                <input type="radio" id="workoption" name="shippingaddr" />
             </label>

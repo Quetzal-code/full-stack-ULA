@@ -1,12 +1,12 @@
 // Definiciones de direcciones para "Casa" y "Trabajo"
 const homeStreet = "1 Main St.";
 const homeCity = "Sicilia";
-const homeState = "MA";
+const homeState = "Quebec";
 const homeCode = "02103";
 
 const workStreet = "15 Oak Ln.";
 const workCity = "Central City";
-const workState = "MA";
+const workState = "Nova Scotia";
 const workCode = "02104";
 
 

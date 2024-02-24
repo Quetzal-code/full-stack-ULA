@@ -9,6 +9,8 @@ const workCity = "Central City";
 const workState = "MA";
 const workCode = "02104";
 
+
+/*
 // Función para asignar los valores de dirección
 function fillAddress(type) {
     // Identifica los elementos del formulario
@@ -31,12 +33,28 @@ function fillAddress(type) {
     }
 }
 
+*/
+
+ function homeAddress() {
+     document.getElementById("street").value = homeStreet;
+     document.getElementById("city").value = homeCity;
+     document.getElementById("state").value = homeState;
+     document.getElementById("code").value = homeCode;
+ }
+ function workAddress() {
+    document.getElementById("street").value = workStreet;
+    document.getElementById("city").value = workCity;
+     document.getElementById("state").value = workState;
+     document.getElementById("code").value = workCode;
+ }
+
+
 // Agrega los event listeners a los botones de radio
-window.onload = function() {
-    document.getElementById("homeoption").addEventListener("click", function() {
-        fillAddress("home");
-    });
-    document.getElementById("workoption").addEventListener("click", function() {
-        fillAddress("work");
-    });
-};
+//  window.onload = function() {
+//      document.getElementById("homeoption").addEventListener("click", function() {
+//          fillAddress("home");
+//      });
+//      document.getElementById("workoption").addEventListener("click", function() {
+//          fillAddress("work");
+//      });
+//  };

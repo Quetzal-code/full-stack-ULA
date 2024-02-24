@@ -1,13 +1,13 @@
 // Definiciones de direcciones para "Casa" y "Trabajo"
-const homeStreet = "Calle de Casa 123";
-const homeCity = "Ciudad Casa";
-const homeState = "Estado Casa";
-const homeCode = "00001";
+const homeStreet = "1 Main St.";
+const homeCity = "Sicilia";
+const homeState = "MA";
+const homeCode = "02103";
 
-const workStreet = "Calle de Trabajo 456";
-const workCity = "Ciudad Trabajo";
-const workState = "Estado Trabajo";
-const workCode = "00002";
+const workStreet = "15 Oak Ln.";
+const workCity = "Central City";
+const workState = "MA";
+const workCode = "02104";
 
 // Función para asignar los valores de dirección
 function fillAddress(type) {

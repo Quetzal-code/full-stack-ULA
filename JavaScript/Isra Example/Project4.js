@@ -2,12 +2,12 @@
 const homeStreet = "1 Main St.";
 const homeCity = "Sicilia";
 const homeState = "Quebec";
-const homeCode = "02103";
+const homeCode = "021038";
 
 const workStreet = "15 Oak Ln.";
 const workCity = "Central City";
 const workState = "Nova Scotia";
-const workCode = "02104";
+const workCode = "021048";
 
 
 /*

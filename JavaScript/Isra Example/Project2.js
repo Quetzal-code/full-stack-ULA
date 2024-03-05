@@ -1,7 +1,7 @@
 /*  JavaScript 
     Hands-On Project 1-2
 
-    Author: 
+    Author: Quetzal Uzcategui
     Date:   
 
     Filename: project01-02.js

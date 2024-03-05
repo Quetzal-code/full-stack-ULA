@@ -1,4 +1,4 @@
-// Definiciones de direcciones para "Casa" y "Trabajo"
+//Declaring the variables
 const homeStreet = "1 Main St.";
 const homeCity = "Sicilia";
 const homeState = "Quebec";

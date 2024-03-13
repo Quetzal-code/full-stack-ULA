@@ -3,7 +3,7 @@ const numberOfLikes = 7
 //Could be numbers, strings, booleans , like in Python
 
 console.log(numberOfLikes)
-//This is the way to print 
+//This is the way to print (display the value in the screen or console) 
 
 //We could store results in variables 
 
@@ -12,3 +12,7 @@ const secondNumber = 8;
 const total = firstNumber + secondNumber ; 
 console.log(total)
 //REMEMBERRRR TO ADD THE ;
+
+//Inequality operator 
+1 !== 2
+1 === 1

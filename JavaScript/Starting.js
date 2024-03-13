@@ -1,3 +1,7 @@
+// JavaScript is the world's most popular programming language.
+// JavaScript is the programming language of the Web.
+
+
 // Variables declaration
 const numberOfLikes = 7
 //Could be numbers, strings, booleans , like in Python

@@ -23,6 +23,8 @@ console.log(total);
 
 //Inequality operator 
 1 !== 2 ;
+
+//Equality operator
 1 === 1 ;
 
 // JavaScript Statements

@@ -10,9 +10,9 @@ console.log(numberOfLikes)
 const firstNumber = 2;
 const secondNumber = 8;
 const total = firstNumber + secondNumber ; 
-console.log(total)
+console.log(total);
 //REMEMBERRRR TO ADD THE ;
 
 //Inequality operator 
-1 !== 2
-1 === 1
+1 !== 2 ;
+1 === 1 ;

@@ -2,5 +2,5 @@
 
 
 //Inside the code (Puede hacer más vulnerable el sitio web)
-//
-//In a separete file .js
+//Inside de <script>
+//In a separete file .js using <script src="">

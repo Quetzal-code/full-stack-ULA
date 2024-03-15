@@ -1,9 +1,9 @@
 //Definicion del objeto libro
-let bookObject={
+let libro={
     titulo:"Hobbit",
     autor:"Tolkien",
     Disponible:true
-}
+};
 
 function verifDisponibilidad(libro){
     if (libro.Disponible===true){
@@ -14,4 +14,12 @@ function verifDisponibilidad(libro){
 }
 
 //Invocar la funcion
-verifDisponibilidad(libro)
+verifDisponibilidad(libro);
+
+//Cambiar disponibilidad
+libro.Disponible=false;
+
+console.log(libro.Editorial);
+
+libro.paginas=null;
+console.log(libro.paginas);

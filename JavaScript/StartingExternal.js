@@ -24,6 +24,10 @@ console.log(total);
 //Inequality operator 
 1 !== 2 ;
 
+let neExample = true;
+newNExample = !neExample;
+console.log(newNExample);
+
 //Equality operator
 1 === 1 ;
 

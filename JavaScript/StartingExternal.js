@@ -15,8 +15,8 @@ console.log(numberOfLikes)
 
 //We could store results in variables 
 
-const firstNumber = 2;
-const secondNumber = 8;
+const firstNumber = 22;
+const secondNumber = 83;
 const total = firstNumber + secondNumber ; 
 console.log(total);
 //REMEMBERRRR TO ADD THE ;
@@ -37,7 +37,9 @@ console.log(newNExample);
 //Data types in JavaScript 
 //Numbers , Strings , Booleans , Objects, Functions, Undefined(Declarada pero no asignada), Null (Ningun valor), Symbol 
 
+
 //Comments in JS
+
 /*Multiline
 Comment
 */

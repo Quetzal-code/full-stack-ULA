@@ -1,5 +1,9 @@
 
 // Variables declaration
-var newTrying = true
+var newTrying = true ;
 
-var varFalse = false
+var varFalse = false ;
+
+// Display in console
+let nameNew = "Quetzal";
+console.log(nameNew);

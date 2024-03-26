@@ -29,7 +29,11 @@ newNExample = !neExample;
 console.log(newNExample);
 
 //Equality operator
-1 === 1 ;
+let itIs = 1 === 1 ;
+//Inequality operator
+let isNot = 1!=3;
+
+console.log(itIs, isNot);
 
 // JavaScript Statements
 // Values, Operators, Expressions, Keywords, and Comments.

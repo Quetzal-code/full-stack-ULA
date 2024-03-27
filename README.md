@@ -1,5 +1,5 @@
 # Fullstack by ULA
-a Full-stack Course by ULA 
+a Full-stack Course by ULA
 
 ## Introduction
 Fullstack by ULA is a comprehensive learning platform aimed at providing a structured path for beginners and intermediate developers to master full-stack development. Our goal is to facilitate a deep understanding of both front-end and back-end technologies, bridging the gap between theory and practical application.
@@ -14,7 +14,7 @@ Fullstack by ULA is a comprehensive learning platform aimed at providing a struc
 - Git
 
 ### Step-by-step Installation Guide
-1. Clone the repository: 
+1. Clone the repository:
    ```bash
    git clone https://github.com/YourUsername/Fullstack-by-ULA.git
 

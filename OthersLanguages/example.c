@@ -1,25 +1,25 @@
-//#include <stdio.h>  Incluye la biblioteca estándar de entrada/salida
+//#include <stdio.h>  Include the standar library
 
 // int main() { // La función main inicia la ejecución del programa
 //     printf("Hello World\n"); // Imprime "Hello, World!" seguido de un salto de línea
 //     return 0; // Termina la ejecución del programa con estado de salida 0
 // }
 
-//No puedes tener dos main
+//It can not have two mains
 int main() {
-    // Declaración de variables
+    // Variables declaration
     int num1, num2, suma;
     
     // Pedir al usuario que ingrese dos números
-    printf("Ingrese el primer número: ");
+    printf("Enter the first number: ");
     scanf("%d", &num1);
-    printf("Ingrese el segundo número: ");
+    printf("Enter the second number: ");
     scanf("%d", &num2);
     
-    // Calcular la suma de num1 y num2
+    // Calculate num1 + num2
     suma = num1 + num2;
     
-    // Imprimir la suma
+    // Print the result
     printf("La suma de %d y %d es %d.\n", num1, num2, suma);
     
     // Verificar si la suma es par o impar usando el operador módulo (%)

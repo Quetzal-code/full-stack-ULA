@@ -19,7 +19,7 @@ const firstNumber = 22;
 const secondNumber = 83;
 const total = firstNumber + secondNumber ;
 console.log(total);
-//REMEMBERRRR TO ADD THE ;
+//REMEMBERRR TO ADD THE ;
 
 //Inequality operator
 1 !== 2 ;

@@ -1,7 +1,7 @@
 import tkinter as tk
 import re
 
-# Define los colores
+# Define the colors
 DARK_BLUE = '#005A82'
 GOLD = '#C89B3C'
 GRAY = '#A09B8C'
@@ -11,7 +11,7 @@ BLACK = '#010A13'
 def mostrar(value):
     display.insert(tk.END, value)
 
-# Crea la ventana principal
+# Create the main screen
 base_cal = tk.Tk()
 base_cal.title("League of Legends Calculator")
 base_cal.resizable(width=False, height=False)

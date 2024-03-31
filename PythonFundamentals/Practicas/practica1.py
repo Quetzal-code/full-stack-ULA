@@ -1,2 +1,2 @@
-"""Este codigo hara las veces de cajero automatico"""
+"""This code will act as a cash machine"""
 

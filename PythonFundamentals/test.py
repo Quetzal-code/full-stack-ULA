@@ -28,3 +28,5 @@ def d():
     color = "red"
 color = "blue"
 d()
+
+#Excersice 3

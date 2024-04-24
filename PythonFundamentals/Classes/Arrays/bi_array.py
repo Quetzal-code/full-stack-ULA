@@ -10,4 +10,4 @@ for fila in arregloBi:
     for elemento in fila:
         SUMA += elemento
 
-print("La suma total es: ", SUMA)
+print("the total amount is: ", SUMA)

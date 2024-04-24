@@ -12,11 +12,11 @@ while True :
         lista_numeros.append(numero)
     except ValueError :
     
-        print("Introduce otro numero: ")
+        print("Introduce another number: ")
 
 if lista_numeros:
     suma=sum(lista_numeros)
-    print("La suma es : ")
+    print("The sum is : ")
 
 else:
-    print("No hay datos ")
+    print("No data ")

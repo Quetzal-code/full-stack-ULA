@@ -2,8 +2,7 @@ Entradas
 num_adivinado 
 
 
-Salidas
-Un numero aleatorio
+Output
+Random number
 
-
-Codigo
+Code

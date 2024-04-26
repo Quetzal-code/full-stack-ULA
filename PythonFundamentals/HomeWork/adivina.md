@@ -1,4 +1,4 @@
-Entradas
+Input
 num_adivinado 
 
 
